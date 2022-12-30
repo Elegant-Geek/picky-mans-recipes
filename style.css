@@ -1,0 +1,48 @@
+/*=================BASE STYLE=================*/
+body {
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	font-size: 25px;
+	line-height: 1.4;
+    background-color: rgb(181, 233, 233);
+}
+
+.food-image img {
+    width: 500px;
+    height: auto;
+}
+
+.body-wrapper {
+    margin-left: 10rem;
+    margin-bottom: 5rem;
+}
+
+.body-wrapper button {
+    font-size: inherit;
+    text-align: center;
+    background-color: rgb(40, 188, 188);
+    border: black, 5px;
+    border-radius: 50px;
+    padding: 10px 20px 15px 20px;
+    text-decoration: none;
+    display: inline-block;
+    /* margin-top: 50px; */
+    margin-bottom: 30px;
+}
+/* remove all underlines from links */
+a {
+    text-decoration: none;
+}
+a:hover {
+    color:rgb(16, 63, 63);
+    font-weight: 700;
+}
+
+.body-wrapper h1, h2, h3 {
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
+}
+
+.body-wrapper p, ol, ul {
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
+}
